@@ -27,8 +27,8 @@
 
 + (UIImage*)dy_covertToGrayImageFromImage:(UIImage*)sourceImage;
 
-+ (UIImage *)jk_imageWithFileName:(NSString *)name;
++ (UIImage *)dy_imageWithFileName:(NSString *)name;
 
-+ (UIImage *)jk_imageWithFileName:(NSString *)name inBundle:(NSBundle*)bundle;
++ (UIImage *)dy_imageWithFileName:(NSString *)name inBundle:(NSBundle*)bundle;
 
 @end

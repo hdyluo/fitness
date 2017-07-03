@@ -219,10 +219,10 @@
     return grayImage;
 }
 
-+ (UIImage *)jk_imageWithFileName:(NSString *)name {
-    return [self jk_imageWithFileName:name inBundle:[NSBundle mainBundle]];
++ (UIImage *)dy_imageWithFileName:(NSString *)name {
+    return [self dy_imageWithFileName:name inBundle:[NSBundle mainBundle]];
 }
-+ (UIImage *)jk_imageWithFileName:(NSString *)name inBundle:(NSBundle*)bundle{
++ (UIImage *)dy_imageWithFileName:(NSString *)name inBundle:(NSBundle*)bundle{
     NSString *extension = @"png";
     
     NSArray *components = [name componentsSeparatedByString:@"."];

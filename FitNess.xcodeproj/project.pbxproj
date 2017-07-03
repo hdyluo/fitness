@@ -14,6 +14,8 @@
 		B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B0A1F0A507500280B13 /* UIColor+DYUtils.m */; };
 		B0456B0E1F0A510700280B13 /* UIDevice+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */; };
 		B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B101F0A520700280B13 /* UIImage+DYUtils.m */; };
+		B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */; };
+		B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750D1F0A62130052734F /* UIView+DYFrame.m */; };
 		B07300E81F09D7E6006414A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300E71F09D7E6006414A0 /* main.m */; };
 		B07300EB1F09D7E6006414A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300EA1F09D7E6006414A0 /* AppDelegate.m */; };
 		B07300F31F09D7E6006414A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07300F21F09D7E6006414A0 /* Assets.xcassets */; };
@@ -71,6 +73,10 @@
 		B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DYUtils.m"; sourceTree = "<group>"; };
 		B0456B0F1F0A520700280B13 /* UIImage+DYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DYUtils.h"; sourceTree = "<group>"; };
 		B0456B101F0A520700280B13 /* UIImage+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DYUtils.m"; sourceTree = "<group>"; };
+		B06175091F0A5FE00052734F /* UIView+DYCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYCustomBorder.h"; sourceTree = "<group>"; };
+		B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYCustomBorder.m"; sourceTree = "<group>"; };
+		B061750C1F0A62130052734F /* UIView+DYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYFrame.h"; sourceTree = "<group>"; };
+		B061750D1F0A62130052734F /* UIView+DYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYFrame.m"; sourceTree = "<group>"; };
 		B07300E31F09D7E6006414A0 /* FitNess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitNess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07300E71F09D7E6006414A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B07300E91F09D7E6006414A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,6 +198,10 @@
 				B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */,
 				B0456B0F1F0A520700280B13 /* UIImage+DYUtils.h */,
 				B0456B101F0A520700280B13 /* UIImage+DYUtils.m */,
+				B06175091F0A5FE00052734F /* UIView+DYCustomBorder.h */,
+				B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */,
+				B061750C1F0A62130052734F /* UIView+DYFrame.h */,
+				B061750D1F0A62130052734F /* UIView+DYFrame.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -604,7 +614,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -618,6 +628,7 @@
 				B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */,
 				B07301631F09EDDC006414A0 /* ZFBrightnessView.m in Sources */,
 				B07301341F09ED72006414A0 /* UIView+Snapshot.m in Sources */,
+				B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */,
 				B073019E1F09F3EA006414A0 /* DYHTTPManager.m in Sources */,
 				B07300EB1F09D7E6006414A0 /* AppDelegate.m in Sources */,
 				B07301351F09ED72006414A0 /* UIViewController+transition.m in Sources */,
@@ -628,6 +639,7 @@
 				B07301381F09ED72006414A0 /* YGTransition.m in Sources */,
 				B073015A1F09EDDC006414A0 /* ASValueTrackingSlider.m in Sources */,
 				B073015C1F09EDDC006414A0 /* UIImageView+ZFCache.m in Sources */,
+				B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */,
 				B07301361F09ED72006414A0 /* YGAnimator.m in Sources */,
 				B073011B1F09DBF9006414A0 /* AppDelegate+DYNotification.m in Sources */,
 				B07301AE1F0A14BE006414A0 /* DYHomeViewController.m in Sources */,
