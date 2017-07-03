@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6C61BA536BE90F41EE734B43 /* Pods_FitNess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05A6F6F7BDBBF7F6E737FB6E /* Pods_FitNess.framework */; };
+		B0456AFF1F0A4B9600280B13 /* UIButton+DYBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456AFE1F0A4B9600280B13 /* UIButton+DYBlock.m */; };
+		B0456B021F0A4E9D00280B13 /* UIButton+DYCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B011F0A4E9D00280B13 /* UIButton+DYCountDown.m */; };
+		B0456B051F0A4EF000280B13 /* UIButton+DYImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B041F0A4EF000280B13 /* UIButton+DYImagePosition.m */; };
+		B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B0A1F0A507500280B13 /* UIColor+DYUtils.m */; };
+		B0456B0E1F0A510700280B13 /* UIDevice+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */; };
+		B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B101F0A520700280B13 /* UIImage+DYUtils.m */; };
 		B07300E81F09D7E6006414A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300E71F09D7E6006414A0 /* main.m */; };
 		B07300EB1F09D7E6006414A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300EA1F09D7E6006414A0 /* AppDelegate.m */; };
 		B07300F31F09D7E6006414A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07300F21F09D7E6006414A0 /* Assets.xcassets */; };
@@ -53,6 +59,18 @@
 /* Begin PBXFileReference section */
 		05A6F6F7BDBBF7F6E737FB6E /* Pods_FitNess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitNess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9052986DB863A38EB5CB4697 /* Pods-FitNess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitNess.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitNess/Pods-FitNess.release.xcconfig"; sourceTree = "<group>"; };
+		B0456AFD1F0A4B9600280B13 /* UIButton+DYBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DYBlock.h"; sourceTree = "<group>"; };
+		B0456AFE1F0A4B9600280B13 /* UIButton+DYBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DYBlock.m"; sourceTree = "<group>"; };
+		B0456B001F0A4E9D00280B13 /* UIButton+DYCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DYCountDown.h"; sourceTree = "<group>"; };
+		B0456B011F0A4E9D00280B13 /* UIButton+DYCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DYCountDown.m"; sourceTree = "<group>"; };
+		B0456B031F0A4EF000280B13 /* UIButton+DYImagePosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DYImagePosition.h"; sourceTree = "<group>"; };
+		B0456B041F0A4EF000280B13 /* UIButton+DYImagePosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DYImagePosition.m"; sourceTree = "<group>"; };
+		B0456B091F0A507500280B13 /* UIColor+DYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DYUtils.h"; sourceTree = "<group>"; };
+		B0456B0A1F0A507500280B13 /* UIColor+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DYUtils.m"; sourceTree = "<group>"; };
+		B0456B0C1F0A510700280B13 /* UIDevice+DYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DYUtils.h"; sourceTree = "<group>"; };
+		B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DYUtils.m"; sourceTree = "<group>"; };
+		B0456B0F1F0A520700280B13 /* UIImage+DYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DYUtils.h"; sourceTree = "<group>"; };
+		B0456B101F0A520700280B13 /* UIImage+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DYUtils.m"; sourceTree = "<group>"; };
 		B07300E31F09D7E6006414A0 /* FitNess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitNess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07300E71F09D7E6006414A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B07300E91F09D7E6006414A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -152,6 +170,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0456AFB1F0A4B5400280B13 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B0456AFC1F0A4B5400280B13 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B0456AFD1F0A4B9600280B13 /* UIButton+DYBlock.h */,
+				B0456AFE1F0A4B9600280B13 /* UIButton+DYBlock.m */,
+				B0456B001F0A4E9D00280B13 /* UIButton+DYCountDown.h */,
+				B0456B011F0A4E9D00280B13 /* UIButton+DYCountDown.m */,
+				B0456B031F0A4EF000280B13 /* UIButton+DYImagePosition.h */,
+				B0456B041F0A4EF000280B13 /* UIButton+DYImagePosition.m */,
+				B0456B091F0A507500280B13 /* UIColor+DYUtils.h */,
+				B0456B0A1F0A507500280B13 /* UIColor+DYUtils.m */,
+				B0456B0C1F0A510700280B13 /* UIDevice+DYUtils.h */,
+				B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */,
+				B0456B0F1F0A520700280B13 /* UIImage+DYUtils.h */,
+				B0456B101F0A520700280B13 /* UIImage+DYUtils.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		B07300DA1F09D7E5006414A0 = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +322,8 @@
 		B07301101F09DA13006414A0 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				B0456AFB1F0A4B5400280B13 /* Foundation */,
+				B0456AFC1F0A4B5400280B13 /* UIKit */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -569,12 +615,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07301A51F0A12CC006414A0 /* DYDrawerViewController.m in Sources */,
+				B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */,
 				B07301631F09EDDC006414A0 /* ZFBrightnessView.m in Sources */,
 				B07301341F09ED72006414A0 /* UIView+Snapshot.m in Sources */,
 				B073019E1F09F3EA006414A0 /* DYHTTPManager.m in Sources */,
 				B07300EB1F09D7E6006414A0 /* AppDelegate.m in Sources */,
 				B07301351F09ED72006414A0 /* UIViewController+transition.m in Sources */,
 				B073015B1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.m in Sources */,
+				B0456B021F0A4E9D00280B13 /* UIButton+DYCountDown.m in Sources */,
+				B0456B0E1F0A510700280B13 /* UIDevice+DYUtils.m in Sources */,
 				B07301081F09D973006414A0 /* DYUserManager.m in Sources */,
 				B07301381F09ED72006414A0 /* YGTransition.m in Sources */,
 				B073015A1F09EDDC006414A0 /* ASValueTrackingSlider.m in Sources */,
@@ -598,8 +647,11 @@
 				B07301671F09EDDC006414A0 /* ZFPlayerView.m in Sources */,
 				B073019B1F09F3D7006414A0 /* DYHTTPRequest.m in Sources */,
 				B07301601F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				B0456B051F0A4EF000280B13 /* UIButton+DYImagePosition.m in Sources */,
 				B07301B11F0A2915006414A0 /* DYDrawerHeaderView.m in Sources */,
 				B073015D1F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.m in Sources */,
+				B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */,
+				B0456AFF1F0A4B9600280B13 /* UIButton+DYBlock.m in Sources */,
 				B073015E1F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				B07300E81F09D7E6006414A0 /* main.m in Sources */,
 				B07301611F09EDDC006414A0 /* UIWindow+CurrentViewController.m in Sources */,
