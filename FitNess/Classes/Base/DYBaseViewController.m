@@ -46,7 +46,7 @@
 
 - (void)showBackArrow {
     if (self.navigationController && self.navigationController.viewControllers.count > 1) {
-        UIImage * image = [[UIImage imageNamed:@"navigation-back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+        UIImage * image = [[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];
     }
 }

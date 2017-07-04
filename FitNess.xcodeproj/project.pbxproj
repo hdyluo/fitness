@@ -28,6 +28,11 @@
 		B0456B461F0B329B00280B13 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B391F0B329B00280B13 /* ZFPlayerModel.m */; };
 		B0456B471F0B329B00280B13 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B3B1F0B329B00280B13 /* ZFPlayerView.m */; };
 		B0456B521F0B340200280B13 /* DYHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B511F0B340200280B13 /* DYHomeCell.m */; };
+		B0456B931F0B698D00280B13 /* DYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B921F0B698D00280B13 /* DYLoginViewController.m */; };
+		B0456B961F0B69AC00280B13 /* DYRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B951F0B69AC00280B13 /* DYRegisterViewController.m */; };
+		B0456B9F1F0B6B8700280B13 /* DYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B9E1F0B6B8700280B13 /* DYLoginView.m */; };
+		B0456BA21F0B6C3E00280B13 /* UIViewController+SH.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456BA11F0B6C3E00280B13 /* UIViewController+SH.m */; };
+		B0456BA51F0B7DD700280B13 /* DYRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456BA41F0B7DD700280B13 /* DYRegisterView.m */; };
 		B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */; };
 		B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750D1F0A62130052734F /* UIView+DYFrame.m */; };
 		B07300E81F09D7E6006414A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300E71F09D7E6006414A0 /* main.m */; };
@@ -99,6 +104,16 @@
 		B0456B3B1F0B329B00280B13 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
 		B0456B501F0B340200280B13 /* DYHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHomeCell.h; sourceTree = "<group>"; };
 		B0456B511F0B340200280B13 /* DYHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHomeCell.m; sourceTree = "<group>"; };
+		B0456B911F0B698D00280B13 /* DYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYLoginViewController.h; sourceTree = "<group>"; };
+		B0456B921F0B698D00280B13 /* DYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYLoginViewController.m; sourceTree = "<group>"; };
+		B0456B941F0B69AC00280B13 /* DYRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRegisterViewController.h; sourceTree = "<group>"; };
+		B0456B951F0B69AC00280B13 /* DYRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRegisterViewController.m; sourceTree = "<group>"; };
+		B0456B9D1F0B6B8700280B13 /* DYLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYLoginView.h; sourceTree = "<group>"; };
+		B0456B9E1F0B6B8700280B13 /* DYLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYLoginView.m; sourceTree = "<group>"; };
+		B0456BA01F0B6C3E00280B13 /* UIViewController+SH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SH.h"; sourceTree = "<group>"; };
+		B0456BA11F0B6C3E00280B13 /* UIViewController+SH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SH.m"; sourceTree = "<group>"; };
+		B0456BA31F0B7DD700280B13 /* DYRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRegisterView.h; sourceTree = "<group>"; };
+		B0456BA41F0B7DD700280B13 /* DYRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRegisterView.m; sourceTree = "<group>"; };
 		B06175091F0A5FE00052734F /* UIView+DYCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYCustomBorder.h"; sourceTree = "<group>"; };
 		B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYCustomBorder.m"; sourceTree = "<group>"; };
 		B061750C1F0A62130052734F /* UIView+DYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYFrame.h"; sourceTree = "<group>"; };
@@ -177,6 +192,8 @@
 		B0456AFC1F0A4B5400280B13 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B0456BA01F0B6C3E00280B13 /* UIViewController+SH.h */,
+				B0456BA11F0B6C3E00280B13 /* UIViewController+SH.m */,
 				B0456AFD1F0A4B9600280B13 /* UIButton+DYBlock.h */,
 				B0456AFE1F0A4B9600280B13 /* UIButton+DYBlock.m */,
 				B0456B001F0A4E9D00280B13 /* UIButton+DYCountDown.h */,
@@ -249,6 +266,37 @@
 			children = (
 				B0456B501F0B340200280B13 /* DYHomeCell.h */,
 				B0456B511F0B340200280B13 /* DYHomeCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0456B761F0B669300280B13 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B0456B771F0B66B100280B13 /* Models */,
+				B0456B781F0B66B100280B13 /* Views */,
+				B0456B911F0B698D00280B13 /* DYLoginViewController.h */,
+				B0456B921F0B698D00280B13 /* DYLoginViewController.m */,
+				B0456B941F0B69AC00280B13 /* DYRegisterViewController.h */,
+				B0456B951F0B69AC00280B13 /* DYRegisterViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B0456B771F0B66B100280B13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0456B781F0B66B100280B13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0456B9D1F0B6B8700280B13 /* DYLoginView.h */,
+				B0456B9E1F0B6B8700280B13 /* DYLoginView.m */,
+				B0456BA31F0B7DD700280B13 /* DYRegisterView.h */,
+				B0456BA41F0B7DD700280B13 /* DYRegisterView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -345,6 +393,7 @@
 		B07301011F09D8CD006414A0 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				B0456B761F0B669300280B13 /* Login */,
 				B07301AB1F0A14AF006414A0 /* Home */,
 				B07301A21F0A1294006414A0 /* Drawer */,
 				B07301151F09DBCB006414A0 /* Launch */,
@@ -641,6 +690,8 @@
 				B07301081F09D973006414A0 /* DYUserManager.m in Sources */,
 				B0456B3F1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				B07301381F09ED72006414A0 /* YGTransition.m in Sources */,
+				B0456B9F1F0B6B8700280B13 /* DYLoginView.m in Sources */,
+				B0456BA21F0B6C3E00280B13 /* UIViewController+SH.m in Sources */,
 				B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */,
 				B07301361F09ED72006414A0 /* YGAnimator.m in Sources */,
 				B0456B3E1F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m in Sources */,
@@ -650,6 +701,7 @@
 				B07301211F09DE91006414A0 /* DYBaseTableViewController.m in Sources */,
 				B0456B411F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				B073010B1F09D9A4006414A0 /* DYCacheManager.m in Sources */,
+				B0456B931F0B698D00280B13 /* DYLoginViewController.m in Sources */,
 				B07301371F09ED72006414A0 /* YGInteractor.m in Sources */,
 				B073010E1F09D9B4006414A0 /* DYMediaManager.m in Sources */,
 				B07301041F09D90C006414A0 /* DYBaseViewController.m in Sources */,
@@ -658,7 +710,9 @@
 				B073019B1F09F3D7006414A0 /* DYHTTPRequest.m in Sources */,
 				B0456B051F0A4EF000280B13 /* UIButton+DYImagePosition.m in Sources */,
 				B0456B3D1F0B329B00280B13 /* ASValueTrackingSlider.m in Sources */,
+				B0456B961F0B69AC00280B13 /* DYRegisterViewController.m in Sources */,
 				B0456B461F0B329B00280B13 /* ZFPlayerModel.m in Sources */,
+				B0456BA51F0B7DD700280B13 /* DYRegisterView.m in Sources */,
 				B0456B401F0B329B00280B13 /* UIView+CustomControlView.m in Sources */,
 				B07301B11F0A2915006414A0 /* DYDrawerHeaderView.m in Sources */,
 				B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */,

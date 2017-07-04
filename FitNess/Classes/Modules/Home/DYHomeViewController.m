@@ -8,6 +8,7 @@
 
 #import "DYHomeViewController.h"
 #import "DYHomeCell.h"
+#import "DYLoginViewController.h"
 
 @interface DYHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -21,6 +22,19 @@
     [super viewDidLoad];
     self.title = @"首页";
     [self.view addSubview:self.tableView];
+    [self _addRightBtn];
+}
+
+
+- (void)_addRightBtn{
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"点击登录" style:UIBarButtonItemStylePlain target:self action:@selector(rightClicked)];
+}
+
+- (void)rightClicked{
+    DYLoginViewController * loginVC = [[DYLoginViewController alloc] init];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:loginVC];
+//      [self.navigationController pushViewController:loginVC animated:YES];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 

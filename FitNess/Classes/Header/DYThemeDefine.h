@@ -36,6 +36,8 @@
 
 #define STATUSBAR_HEIGHT 20
 
+#define DEFAULT_COLOR RGBCOLOR(239,140,36)
+
 
 
 #endif /* DYThemeDefine_h */

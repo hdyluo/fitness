@@ -12,4 +12,7 @@
 
 -(void)dy_startTime:(NSInteger )timeout title:(NSString *)tittle waitTittle:(NSString *)waitTittle;
 
+- (void)dy_addCountDown:(NSInteger)countDown withTitle:(NSString *)title completionBlock:(void (^)())block;
+
+
 @end
