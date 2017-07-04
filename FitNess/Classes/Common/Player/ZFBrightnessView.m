@@ -186,12 +186,12 @@
 
 - (void)setIsStatusBarHidden:(BOOL)isStatusBarHidden {
     _isStatusBarHidden = isStatusBarHidden;
-    [[UIWindow zf_currentViewController] setNeedsStatusBarAppearanceUpdate];
+//    [[UIWindow zf_currentViewController] setNeedsStatusBarAppearanceUpdate];
 }
 
 - (void)setIsLandscape:(BOOL)isLandscape {
     _isLandscape = isLandscape;
-    [[UIWindow zf_currentViewController] setNeedsStatusBarAppearanceUpdate];
+//    [[UIWindow zf_currentViewController] setNeedsStatusBarAppearanceUpdate];
 }
 
 @end

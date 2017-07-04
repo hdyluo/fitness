@@ -51,7 +51,5 @@
 #import "UITabBarController+ZFPlayerRotation.h"
 #import "UIViewController+ZFPlayerRotation.h"
 #import "UINavigationController+ZFPlayerRotation.h"
-#import "UIImageView+ZFCache.h"
-#import "UIWindow+CurrentViewController.h"
 #import "ZFPlayerControlViewDelegate.h"
 #import <Masonry/Masonry.h>

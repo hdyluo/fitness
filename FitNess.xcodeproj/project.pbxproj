@@ -14,6 +14,20 @@
 		B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B0A1F0A507500280B13 /* UIColor+DYUtils.m */; };
 		B0456B0E1F0A510700280B13 /* UIDevice+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */; };
 		B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B101F0A520700280B13 /* UIImage+DYUtils.m */; };
+		B0456B171F0B2A3200280B13 /* AppDelegate+AWS.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B161F0B2A3200280B13 /* AppDelegate+AWS.m */; };
+		B0456B3C1F0B329B00280B13 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B231F0B329B00280B13 /* ASValuePopUpView.m */; };
+		B0456B3D1F0B329B00280B13 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B251F0B329B00280B13 /* ASValueTrackingSlider.m */; };
+		B0456B3E1F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B281F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m */; };
+		B0456B3F1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B2A1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m */; };
+		B0456B401F0B329B00280B13 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B2C1F0B329B00280B13 /* UIView+CustomControlView.m */; };
+		B0456B411F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B2E1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m */; };
+		B0456B421F0B329B00280B13 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B301F0B329B00280B13 /* MMMaterialDesignSpinner.m */; };
+		B0456B431F0B329B00280B13 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B321F0B329B00280B13 /* ZFBrightnessView.m */; };
+		B0456B441F0B329B00280B13 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0456B331F0B329B00280B13 /* ZFPlayer.bundle */; };
+		B0456B451F0B329B00280B13 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B361F0B329B00280B13 /* ZFPlayerControlView.m */; };
+		B0456B461F0B329B00280B13 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B391F0B329B00280B13 /* ZFPlayerModel.m */; };
+		B0456B471F0B329B00280B13 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B3B1F0B329B00280B13 /* ZFPlayerView.m */; };
+		B0456B521F0B340200280B13 /* DYHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B511F0B340200280B13 /* DYHomeCell.m */; };
 		B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */; };
 		B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750D1F0A62130052734F /* UIView+DYFrame.m */; };
 		B07300E81F09D7E6006414A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300E71F09D7E6006414A0 /* main.m */; };
@@ -25,30 +39,13 @@
 		B073010B1F09D9A4006414A0 /* DYCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B073010A1F09D9A4006414A0 /* DYCacheManager.m */; };
 		B073010E1F09D9B4006414A0 /* DYMediaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B073010D1F09D9B4006414A0 /* DYMediaManager.m */; };
 		B07301181F09DBE7006414A0 /* AppDelegate+DYUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301171F09DBE7006414A0 /* AppDelegate+DYUI.m */; };
-		B073011B1F09DBF9006414A0 /* AppDelegate+DYNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = B073011A1F09DBF9006414A0 /* AppDelegate+DYNotification.m */; };
 		B073011E1F09DE6A006414A0 /* DYBaseJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B073011D1F09DE6A006414A0 /* DYBaseJsonModel.m */; };
 		B07301211F09DE91006414A0 /* DYBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301201F09DE91006414A0 /* DYBaseTableViewController.m */; };
 		B07301251F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301241F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.m */; };
-		B07301341F09ED72006414A0 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = B073012B1F09ED72006414A0 /* UIView+Snapshot.m */; };
 		B07301351F09ED72006414A0 /* UIViewController+transition.m in Sources */ = {isa = PBXBuildFile; fileRef = B073012D1F09ED72006414A0 /* UIViewController+transition.m */; };
 		B07301361F09ED72006414A0 /* YGAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = B073012F1F09ED72006414A0 /* YGAnimator.m */; };
 		B07301371F09ED72006414A0 /* YGInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301311F09ED72006414A0 /* YGInteractor.m */; };
 		B07301381F09ED72006414A0 /* YGTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301331F09ED72006414A0 /* YGTransition.m */; };
-		B07301591F09EDDC006414A0 /* ASValuePopUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = B073013A1F09EDDC006414A0 /* ASValuePopUpView.m */; };
-		B073015A1F09EDDC006414A0 /* ASValueTrackingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B073013C1F09EDDC006414A0 /* ASValueTrackingSlider.m */; };
-		B073015B1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B073013F1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.m */; };
-		B073015C1F09EDDC006414A0 /* UIImageView+ZFCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301411F09EDDC006414A0 /* UIImageView+ZFCache.m */; };
-		B073015D1F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301431F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.m */; };
-		B073015E1F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301451F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.m */; };
-		B073015F1F09EDDC006414A0 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301471F09EDDC006414A0 /* UIView+CustomControlView.m */; };
-		B07301601F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301491F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.m */; };
-		B07301611F09EDDC006414A0 /* UIWindow+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B073014B1F09EDDC006414A0 /* UIWindow+CurrentViewController.m */; };
-		B07301621F09EDDC006414A0 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = B073014D1F09EDDC006414A0 /* MMMaterialDesignSpinner.m */; };
-		B07301631F09EDDC006414A0 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B073014F1F09EDDC006414A0 /* ZFBrightnessView.m */; };
-		B07301641F09EDDC006414A0 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B07301501F09EDDC006414A0 /* ZFPlayer.bundle */; };
-		B07301651F09EDDC006414A0 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301531F09EDDC006414A0 /* ZFPlayerControlView.m */; };
-		B07301661F09EDDC006414A0 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301561F09EDDC006414A0 /* ZFPlayerModel.m */; };
-		B07301671F09EDDC006414A0 /* ZFPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301581F09EDDC006414A0 /* ZFPlayerView.m */; };
 		B073019B1F09F3D7006414A0 /* DYHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B073019A1F09F3D7006414A0 /* DYHTTPRequest.m */; };
 		B073019E1F09F3EA006414A0 /* DYHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B073019D1F09F3EA006414A0 /* DYHTTPManager.m */; };
 		B07301A11F0A1098006414A0 /* DYBaseDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301A01F0A1098006414A0 /* DYBaseDrawerViewController.m */; };
@@ -73,6 +70,35 @@
 		B0456B0D1F0A510700280B13 /* UIDevice+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DYUtils.m"; sourceTree = "<group>"; };
 		B0456B0F1F0A520700280B13 /* UIImage+DYUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DYUtils.h"; sourceTree = "<group>"; };
 		B0456B101F0A520700280B13 /* UIImage+DYUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DYUtils.m"; sourceTree = "<group>"; };
+		B0456B151F0B2A3200280B13 /* AppDelegate+AWS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+AWS.h"; sourceTree = "<group>"; };
+		B0456B161F0B2A3200280B13 /* AppDelegate+AWS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+AWS.m"; sourceTree = "<group>"; };
+		B0456B221F0B329B00280B13 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
+		B0456B231F0B329B00280B13 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
+		B0456B241F0B329B00280B13 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
+		B0456B251F0B329B00280B13 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
+		B0456B271F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		B0456B281F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		B0456B291F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		B0456B2A1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		B0456B2B1F0B329B00280B13 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
+		B0456B2C1F0B329B00280B13 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
+		B0456B2D1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
+		B0456B2E1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
+		B0456B2F1F0B329B00280B13 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		B0456B301F0B329B00280B13 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		B0456B311F0B329B00280B13 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		B0456B321F0B329B00280B13 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		B0456B331F0B329B00280B13 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
+		B0456B341F0B329B00280B13 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
+		B0456B351F0B329B00280B13 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
+		B0456B361F0B329B00280B13 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
+		B0456B371F0B329B00280B13 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		B0456B381F0B329B00280B13 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
+		B0456B391F0B329B00280B13 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
+		B0456B3A1F0B329B00280B13 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
+		B0456B3B1F0B329B00280B13 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
+		B0456B501F0B340200280B13 /* DYHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHomeCell.h; sourceTree = "<group>"; };
+		B0456B511F0B340200280B13 /* DYHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHomeCell.m; sourceTree = "<group>"; };
 		B06175091F0A5FE00052734F /* UIView+DYCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYCustomBorder.h"; sourceTree = "<group>"; };
 		B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYCustomBorder.m"; sourceTree = "<group>"; };
 		B061750C1F0A62130052734F /* UIView+DYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYFrame.h"; sourceTree = "<group>"; };
@@ -98,16 +124,12 @@
 		B07301141F09DB90006414A0 /* DYConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYConst.h; sourceTree = "<group>"; };
 		B07301161F09DBE7006414A0 /* AppDelegate+DYUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DYUI.h"; sourceTree = "<group>"; };
 		B07301171F09DBE7006414A0 /* AppDelegate+DYUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DYUI.m"; sourceTree = "<group>"; };
-		B07301191F09DBF9006414A0 /* AppDelegate+DYNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DYNotification.h"; sourceTree = "<group>"; };
-		B073011A1F09DBF9006414A0 /* AppDelegate+DYNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DYNotification.m"; sourceTree = "<group>"; };
 		B073011C1F09DE6A006414A0 /* DYBaseJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBaseJsonModel.h; sourceTree = "<group>"; };
 		B073011D1F09DE6A006414A0 /* DYBaseJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBaseJsonModel.m; sourceTree = "<group>"; };
 		B073011F1F09DE91006414A0 /* DYBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBaseTableViewController.h; sourceTree = "<group>"; };
 		B07301201F09DE91006414A0 /* DYBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBaseTableViewController.m; sourceTree = "<group>"; };
 		B07301231F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		B07301241F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
-		B073012A1F09ED72006414A0 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
-		B073012B1F09ED72006414A0 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		B073012C1F09ED72006414A0 /* UIViewController+transition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+transition.h"; sourceTree = "<group>"; };
 		B073012D1F09ED72006414A0 /* UIViewController+transition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+transition.m"; sourceTree = "<group>"; };
 		B073012E1F09ED72006414A0 /* YGAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGAnimator.h; sourceTree = "<group>"; };
@@ -116,37 +138,6 @@
 		B07301311F09ED72006414A0 /* YGInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGInteractor.m; sourceTree = "<group>"; };
 		B07301321F09ED72006414A0 /* YGTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTransition.h; sourceTree = "<group>"; };
 		B07301331F09ED72006414A0 /* YGTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTransition.m; sourceTree = "<group>"; };
-		B07301391F09EDDC006414A0 /* ASValuePopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValuePopUpView.h; sourceTree = "<group>"; };
-		B073013A1F09EDDC006414A0 /* ASValuePopUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValuePopUpView.m; sourceTree = "<group>"; };
-		B073013B1F09EDDC006414A0 /* ASValueTrackingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASValueTrackingSlider.h; sourceTree = "<group>"; };
-		B073013C1F09EDDC006414A0 /* ASValueTrackingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASValueTrackingSlider.m; sourceTree = "<group>"; };
-		B073013E1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		B073013F1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		B07301401F09EDDC006414A0 /* UIImageView+ZFCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZFCache.h"; sourceTree = "<group>"; };
-		B07301411F09EDDC006414A0 /* UIImageView+ZFCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZFCache.m"; sourceTree = "<group>"; };
-		B07301421F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		B07301431F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		B07301441F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		B07301451F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		B07301461F09EDDC006414A0 /* UIView+CustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomControlView.h"; sourceTree = "<group>"; };
-		B07301471F09EDDC006414A0 /* UIView+CustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomControlView.m"; sourceTree = "<group>"; };
-		B07301481F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZFPlayerRotation.h"; sourceTree = "<group>"; };
-		B07301491F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
-		B073014A1F09EDDC006414A0 /* UIWindow+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+CurrentViewController.h"; sourceTree = "<group>"; };
-		B073014B1F09EDDC006414A0 /* UIWindow+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+CurrentViewController.m"; sourceTree = "<group>"; };
-		B073014C1F09EDDC006414A0 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
-		B073014D1F09EDDC006414A0 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
-		B073014E1F09EDDC006414A0 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
-		B073014F1F09EDDC006414A0 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
-		B07301501F09EDDC006414A0 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
-		B07301511F09EDDC006414A0 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
-		B07301521F09EDDC006414A0 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
-		B07301531F09EDDC006414A0 /* ZFPlayerControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerControlView.m; sourceTree = "<group>"; };
-		B07301541F09EDDC006414A0 /* ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
-		B07301551F09EDDC006414A0 /* ZFPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerModel.h; sourceTree = "<group>"; };
-		B07301561F09EDDC006414A0 /* ZFPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerModel.m; sourceTree = "<group>"; };
-		B07301571F09EDDC006414A0 /* ZFPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerView.h; sourceTree = "<group>"; };
-		B07301581F09EDDC006414A0 /* ZFPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPlayerView.m; sourceTree = "<group>"; };
 		B07301991F09F3D7006414A0 /* DYHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHTTPRequest.h; sourceTree = "<group>"; };
 		B073019A1F09F3D7006414A0 /* DYHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHTTPRequest.m; sourceTree = "<group>"; };
 		B073019C1F09F3EA006414A0 /* DYHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHTTPManager.h; sourceTree = "<group>"; };
@@ -204,6 +195,62 @@
 				B061750D1F0A62130052734F /* UIView+DYFrame.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B0456B211F0B329B00280B13 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				B0456B221F0B329B00280B13 /* ASValuePopUpView.h */,
+				B0456B231F0B329B00280B13 /* ASValuePopUpView.m */,
+				B0456B241F0B329B00280B13 /* ASValueTrackingSlider.h */,
+				B0456B251F0B329B00280B13 /* ASValueTrackingSlider.m */,
+				B0456B261F0B329B00280B13 /* Category */,
+				B0456B2F1F0B329B00280B13 /* MMMaterialDesignSpinner.h */,
+				B0456B301F0B329B00280B13 /* MMMaterialDesignSpinner.m */,
+				B0456B311F0B329B00280B13 /* ZFBrightnessView.h */,
+				B0456B321F0B329B00280B13 /* ZFBrightnessView.m */,
+				B0456B331F0B329B00280B13 /* ZFPlayer.bundle */,
+				B0456B341F0B329B00280B13 /* ZFPlayer.h */,
+				B0456B351F0B329B00280B13 /* ZFPlayerControlView.h */,
+				B0456B361F0B329B00280B13 /* ZFPlayerControlView.m */,
+				B0456B371F0B329B00280B13 /* ZFPlayerControlViewDelegate.h */,
+				B0456B381F0B329B00280B13 /* ZFPlayerModel.h */,
+				B0456B391F0B329B00280B13 /* ZFPlayerModel.m */,
+				B0456B3A1F0B329B00280B13 /* ZFPlayerView.h */,
+				B0456B3B1F0B329B00280B13 /* ZFPlayerView.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		B0456B261F0B329B00280B13 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B0456B271F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.h */,
+				B0456B281F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m */,
+				B0456B291F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.h */,
+				B0456B2A1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m */,
+				B0456B2B1F0B329B00280B13 /* UIView+CustomControlView.h */,
+				B0456B2C1F0B329B00280B13 /* UIView+CustomControlView.m */,
+				B0456B2D1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.h */,
+				B0456B2E1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B0456B4E1F0B333F00280B13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0456B4F1F0B333F00280B13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0456B501F0B340200280B13 /* DYHomeCell.h */,
+				B0456B511F0B340200280B13 /* DYHomeCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		B07300DA1F09D7E5006414A0 = {
@@ -264,8 +311,8 @@
 		B07300FE1F09D8CD006414A0 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B0456B211F0B329B00280B13 /* Player */,
 				B07301291F09ED72006414A0 /* transition */,
-				B07301261F09E71D006414A0 /* Media */,
 				B07301271F09E71D006414A0 /* Network */,
 				B07301281F09E71D006414A0 /* Push */,
 				B07301221F09E712006414A0 /* FDFullscreenPopGesture */,
@@ -343,8 +390,8 @@
 			children = (
 				B07301161F09DBE7006414A0 /* AppDelegate+DYUI.h */,
 				B07301171F09DBE7006414A0 /* AppDelegate+DYUI.m */,
-				B07301191F09DBF9006414A0 /* AppDelegate+DYNotification.h */,
-				B073011A1F09DBF9006414A0 /* AppDelegate+DYNotification.m */,
+				B0456B151F0B2A3200280B13 /* AppDelegate+AWS.h */,
+				B0456B161F0B2A3200280B13 /* AppDelegate+AWS.m */,
 			);
 			path = Launch;
 			sourceTree = "<group>";
@@ -356,31 +403,6 @@
 				B07301241F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
 			path = FDFullscreenPopGesture;
-			sourceTree = "<group>";
-		};
-		B07301261F09E71D006414A0 /* Media */ = {
-			isa = PBXGroup;
-			children = (
-				B07301391F09EDDC006414A0 /* ASValuePopUpView.h */,
-				B073013A1F09EDDC006414A0 /* ASValuePopUpView.m */,
-				B073013B1F09EDDC006414A0 /* ASValueTrackingSlider.h */,
-				B073013C1F09EDDC006414A0 /* ASValueTrackingSlider.m */,
-				B073013D1F09EDDC006414A0 /* Category */,
-				B073014C1F09EDDC006414A0 /* MMMaterialDesignSpinner.h */,
-				B073014D1F09EDDC006414A0 /* MMMaterialDesignSpinner.m */,
-				B073014E1F09EDDC006414A0 /* ZFBrightnessView.h */,
-				B073014F1F09EDDC006414A0 /* ZFBrightnessView.m */,
-				B07301501F09EDDC006414A0 /* ZFPlayer.bundle */,
-				B07301511F09EDDC006414A0 /* ZFPlayer.h */,
-				B07301521F09EDDC006414A0 /* ZFPlayerControlView.h */,
-				B07301531F09EDDC006414A0 /* ZFPlayerControlView.m */,
-				B07301541F09EDDC006414A0 /* ZFPlayerControlViewDelegate.h */,
-				B07301551F09EDDC006414A0 /* ZFPlayerModel.h */,
-				B07301561F09EDDC006414A0 /* ZFPlayerModel.m */,
-				B07301571F09EDDC006414A0 /* ZFPlayerView.h */,
-				B07301581F09EDDC006414A0 /* ZFPlayerView.m */,
-			);
-			path = Media;
 			sourceTree = "<group>";
 		};
 		B07301271F09E71D006414A0 /* Network */ = {
@@ -404,8 +426,6 @@
 		B07301291F09ED72006414A0 /* transition */ = {
 			isa = PBXGroup;
 			children = (
-				B073012A1F09ED72006414A0 /* UIView+Snapshot.h */,
-				B073012B1F09ED72006414A0 /* UIView+Snapshot.m */,
 				B073012C1F09ED72006414A0 /* UIViewController+transition.h */,
 				B073012D1F09ED72006414A0 /* UIViewController+transition.m */,
 				B073012E1F09ED72006414A0 /* YGAnimator.h */,
@@ -416,27 +436,6 @@
 				B07301331F09ED72006414A0 /* YGTransition.m */,
 			);
 			path = transition;
-			sourceTree = "<group>";
-		};
-		B073013D1F09EDDC006414A0 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				B073013E1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.h */,
-				B073013F1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.m */,
-				B07301401F09EDDC006414A0 /* UIImageView+ZFCache.h */,
-				B07301411F09EDDC006414A0 /* UIImageView+ZFCache.m */,
-				B07301421F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.h */,
-				B07301431F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.m */,
-				B07301441F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.h */,
-				B07301451F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.m */,
-				B07301461F09EDDC006414A0 /* UIView+CustomControlView.h */,
-				B07301471F09EDDC006414A0 /* UIView+CustomControlView.m */,
-				B07301481F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.h */,
-				B07301491F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.m */,
-				B073014A1F09EDDC006414A0 /* UIWindow+CurrentViewController.h */,
-				B073014B1F09EDDC006414A0 /* UIWindow+CurrentViewController.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 		B07301A21F0A1294006414A0 /* Drawer */ = {
@@ -471,6 +470,8 @@
 		B07301AB1F0A14AF006414A0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B0456B4E1F0B333F00280B13 /* Models */,
+				B0456B4F1F0B333F00280B13 /* Views */,
 				B07301AC1F0A14BE006414A0 /* DYHomeViewController.h */,
 				B07301AD1F0A14BE006414A0 /* DYHomeViewController.m */,
 			);
@@ -564,7 +565,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B07300F61F09D7E6006414A0 /* LaunchScreen.storyboard in Resources */,
-				B07301641F09EDDC006414A0 /* ZFPlayer.bundle in Resources */,
+				B0456B441F0B329B00280B13 /* ZFPlayer.bundle in Resources */,
 				B07300F31F09D7E6006414A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,7 +615,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -624,50 +625,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0456B421F0B329B00280B13 /* MMMaterialDesignSpinner.m in Sources */,
+				B0456B3C1F0B329B00280B13 /* ASValuePopUpView.m in Sources */,
 				B07301A51F0A12CC006414A0 /* DYDrawerViewController.m in Sources */,
+				B0456B521F0B340200280B13 /* DYHomeCell.m in Sources */,
+				B0456B431F0B329B00280B13 /* ZFBrightnessView.m in Sources */,
 				B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */,
-				B07301631F09EDDC006414A0 /* ZFBrightnessView.m in Sources */,
-				B07301341F09ED72006414A0 /* UIView+Snapshot.m in Sources */,
+				B0456B451F0B329B00280B13 /* ZFPlayerControlView.m in Sources */,
 				B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */,
 				B073019E1F09F3EA006414A0 /* DYHTTPManager.m in Sources */,
 				B07300EB1F09D7E6006414A0 /* AppDelegate.m in Sources */,
 				B07301351F09ED72006414A0 /* UIViewController+transition.m in Sources */,
-				B073015B1F09EDDC006414A0 /* UIAlertController+ZFPlayerRotation.m in Sources */,
 				B0456B021F0A4E9D00280B13 /* UIButton+DYCountDown.m in Sources */,
 				B0456B0E1F0A510700280B13 /* UIDevice+DYUtils.m in Sources */,
 				B07301081F09D973006414A0 /* DYUserManager.m in Sources */,
+				B0456B3F1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				B07301381F09ED72006414A0 /* YGTransition.m in Sources */,
-				B073015A1F09EDDC006414A0 /* ASValueTrackingSlider.m in Sources */,
-				B073015C1F09EDDC006414A0 /* UIImageView+ZFCache.m in Sources */,
 				B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */,
 				B07301361F09ED72006414A0 /* YGAnimator.m in Sources */,
-				B073011B1F09DBF9006414A0 /* AppDelegate+DYNotification.m in Sources */,
+				B0456B3E1F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				B07301AE1F0A14BE006414A0 /* DYHomeViewController.m in Sources */,
 				B07301251F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				B07301B41F0A2932006414A0 /* DYDrawerCell.m in Sources */,
 				B07301211F09DE91006414A0 /* DYBaseTableViewController.m in Sources */,
+				B0456B411F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				B073010B1F09D9A4006414A0 /* DYCacheManager.m in Sources */,
 				B07301371F09ED72006414A0 /* YGInteractor.m in Sources */,
 				B073010E1F09D9B4006414A0 /* DYMediaManager.m in Sources */,
-				B07301661F09EDDC006414A0 /* ZFPlayerModel.m in Sources */,
 				B07301041F09D90C006414A0 /* DYBaseViewController.m in Sources */,
 				B073011E1F09DE6A006414A0 /* DYBaseJsonModel.m in Sources */,
 				B07301181F09DBE7006414A0 /* AppDelegate+DYUI.m in Sources */,
-				B07301621F09EDDC006414A0 /* MMMaterialDesignSpinner.m in Sources */,
-				B07301591F09EDDC006414A0 /* ASValuePopUpView.m in Sources */,
-				B07301651F09EDDC006414A0 /* ZFPlayerControlView.m in Sources */,
-				B07301671F09EDDC006414A0 /* ZFPlayerView.m in Sources */,
 				B073019B1F09F3D7006414A0 /* DYHTTPRequest.m in Sources */,
-				B07301601F09EDDC006414A0 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				B0456B051F0A4EF000280B13 /* UIButton+DYImagePosition.m in Sources */,
+				B0456B3D1F0B329B00280B13 /* ASValueTrackingSlider.m in Sources */,
+				B0456B461F0B329B00280B13 /* ZFPlayerModel.m in Sources */,
+				B0456B401F0B329B00280B13 /* UIView+CustomControlView.m in Sources */,
 				B07301B11F0A2915006414A0 /* DYDrawerHeaderView.m in Sources */,
-				B073015D1F09EDDC006414A0 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */,
 				B0456AFF1F0A4B9600280B13 /* UIButton+DYBlock.m in Sources */,
-				B073015E1F09EDDC006414A0 /* UITabBarController+ZFPlayerRotation.m in Sources */,
+				B0456B471F0B329B00280B13 /* ZFPlayerView.m in Sources */,
+				B0456B171F0B2A3200280B13 /* AppDelegate+AWS.m in Sources */,
 				B07300E81F09D7E6006414A0 /* main.m in Sources */,
-				B07301611F09EDDC006414A0 /* UIWindow+CurrentViewController.m in Sources */,
-				B073015F1F09EDDC006414A0 /* UIView+CustomControlView.m in Sources */,
 				B07301A11F0A1098006414A0 /* DYBaseDrawerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -781,6 +779,7 @@
 			baseConfigurationReference = FD7AF4A8002AD402C12842EE /* Pods-FitNess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 38QRXE82M2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
@@ -788,6 +787,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdy.FitNess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -796,6 +796,7 @@
 			baseConfigurationReference = 9052986DB863A38EB5CB4697 /* Pods-FitNess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 38QRXE82M2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
@@ -803,6 +804,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hdy.FitNess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

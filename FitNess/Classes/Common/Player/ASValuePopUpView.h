@@ -1,6 +1,5 @@
 //
-//  UIWindow+CurrentViewController.m
-//  Player
+//  ASValuePopUpView.h
 //
 // Copyright (c) 2016年 任子丰 ( http://github.com/renzifeng )
 //
@@ -22,26 +21,37 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "UIWindow+CurrentViewController.h"
+#import <UIKit/UIKit.h>
 
-@implementation UIWindow (CurrentViewController)
+@protocol ASValuePopUpViewDelegate <NSObject>
+- (CGFloat)currentValueOffset; //expects value in the range 0.0 - 1.0
+- (void)colorDidUpdate:(UIColor *)opaqueColor;
+@end
 
-+ (UIViewController*)zf_currentViewController; {
-    UIWindow *window = [[UIApplication sharedApplication].delegate window];
-    UIViewController *topViewController = [window rootViewController];
-    while (true) {
-        if (topViewController.presentedViewController) {
-            topViewController = topViewController.presentedViewController;
-        } else if ([topViewController isKindOfClass:[UINavigationController class]] && [(UINavigationController*)topViewController topViewController]) {
-            topViewController = [(UINavigationController *)topViewController topViewController];
-        } else if ([topViewController isKindOfClass:[UITabBarController class]]) {
-            UITabBarController *tab = (UITabBarController *)topViewController;
-            topViewController = tab.selectedViewController;
-        } else {
-            break;
-        }
-    }
-    return topViewController;
-}
+@interface ASValuePopUpView : UIView
+
+@property (weak, nonatomic) id <ASValuePopUpViewDelegate> delegate;
+@property (nonatomic) CGFloat cornerRadius;
+@property (nonatomic) CGFloat arrowLength;
+@property (nonatomic) CGFloat widthPaddingFactor;
+@property (nonatomic) CGFloat heightPaddingFactor;
+
+- (UIColor *)color;
+- (void)setColor:(UIColor *)color;
+- (UIColor *)opaqueColor;
+
+- (void)setText:(NSString *)text;
+- (void)setImage:(UIImage *)image;
+
+- (void)setAnimatedColors:(NSArray *)animatedColors withKeyTimes:(NSArray *)keyTimes;
+
+- (void)setAnimationOffset:(CGFloat)animOffset returnColor:(void (^)(UIColor *opaqueReturnColor))block;
+
+- (void)setFrame:(CGRect)frame arrowOffset:(CGFloat)arrowOffset;
+
+- (void)animateBlock:(void (^)(CFTimeInterval duration))block;
+
+- (void)showAnimated:(BOOL)animated;
+- (void)hideAnimated:(BOOL)animated completionBlock:(void (^)())block;
 
 @end

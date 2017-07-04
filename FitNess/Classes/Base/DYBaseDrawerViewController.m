@@ -8,8 +8,7 @@
 
 #import "DYBaseDrawerViewController.h"
 #import "UIViewController+transition.h"
-#import "DYBaseDrawerViewController.h"
-#import "UIView+Snapshot.h"
+#import "UIImage+DYUtils.h"
 
 
 @interface _DYDrawerAnimator : YGAnimator
@@ -87,7 +86,7 @@
         UIView * containView = [context containerView];
         [containView addSubview:toVC.view];
         toVC.view.transform = CGAffineTransformMakeTranslation(-weakSelf.rightMargin, 0);
-        UIImage * snapShot = [fromVC.view snapshotImage];
+        UIImage * snapShot = [UIImage dy_captureWithView:fromVC.view];
         UIView * extraView = [[UIImageView alloc] initWithImage:snapShot];
         extraView.frame = CGRectMake(weakSelf.rightMargin, 0, snapShot.size.width, snapShot.size.height);
         [toVC.view addSubview:extraView];

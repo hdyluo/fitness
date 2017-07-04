@@ -919,7 +919,7 @@ static const CGFloat ZFPlayerControlBarAutoFadeOutTimeInterval = 0.35f;
     if (playerModel.title) { self.titleLabel.text = playerModel.title; }
     // 设置网络占位图片
     if (playerModel.placeholderImageURLString) {
-        [self.placeholderImageView setImageWithURLString:playerModel.placeholderImageURLString placeholder:ZFPlayerImage(@"ZFPlayer_loading_bgView")];
+//        [self.placeholderImageView setImageWithURLString:playerModel.placeholderImageURLString placeholder:ZFPlayerImage(@"ZFPlayer_loading_bgView")];
     } else {
         self.placeholderImageView.image = playerModel.placeholderImage;
     }
