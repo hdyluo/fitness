@@ -41,7 +41,7 @@
 	static dispatch_once_t onceToken;
 	dispatch_once(&onceToken, ^{
 		instance = [[ZFBrightnessView alloc] init];
-		[[UIApplication sharedApplication].keyWindow addSubview:instance];
+//		[[UIApplication sharedApplication].keyWindow addSubview:instance];
 	});
 	return instance;
 }
@@ -127,6 +127,9 @@
 	CGFloat sound = [change[@"new"] floatValue];
 	[self appearSoundView];
 	[self updateLongView:sound];
+    if (!self.superview) {
+        [[UIApplication sharedApplication].keyWindow addSubview:self];
+    }
 }
 
 - (void)updateLayer:(NSNotification *)notify {
@@ -138,6 +141,7 @@
 #pragma mark - Methond
 
 - (void)appearSoundView {
+
 	if (self.alpha == 0.0) {
         self.orientationDidChange = NO;
 		self.alpha = 1.0;
@@ -152,6 +156,7 @@
 	if (self.alpha == 1.0) {
 		[UIView animateWithDuration:0.8 animations:^{
 			self.alpha = 0.0;
+            [self removeFromSuperview];
 		}];
 	}
 }

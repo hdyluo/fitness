@@ -22,7 +22,6 @@
 		B0456B401F0B329B00280B13 /* UIView+CustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B2C1F0B329B00280B13 /* UIView+CustomControlView.m */; };
 		B0456B411F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B2E1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m */; };
 		B0456B421F0B329B00280B13 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B301F0B329B00280B13 /* MMMaterialDesignSpinner.m */; };
-		B0456B431F0B329B00280B13 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B321F0B329B00280B13 /* ZFBrightnessView.m */; };
 		B0456B441F0B329B00280B13 /* ZFPlayer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0456B331F0B329B00280B13 /* ZFPlayer.bundle */; };
 		B0456B451F0B329B00280B13 /* ZFPlayerControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B361F0B329B00280B13 /* ZFPlayerControlView.m */; };
 		B0456B461F0B329B00280B13 /* ZFPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B391F0B329B00280B13 /* ZFPlayerModel.m */; };
@@ -33,6 +32,7 @@
 		B0456B9F1F0B6B8700280B13 /* DYLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456B9E1F0B6B8700280B13 /* DYLoginView.m */; };
 		B0456BA21F0B6C3E00280B13 /* UIViewController+SH.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456BA11F0B6C3E00280B13 /* UIViewController+SH.m */; };
 		B0456BA51F0B7DD700280B13 /* DYRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456BA41F0B7DD700280B13 /* DYRegisterView.m */; };
+		B0456BBE1F0CFF6B00280B13 /* ZFBrightnessView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0456BBD1F0CFF6B00280B13 /* ZFBrightnessView.m */; };
 		B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */; };
 		B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B061750D1F0A62130052734F /* UIView+DYFrame.m */; };
 		B07300E81F09D7E6006414A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B07300E71F09D7E6006414A0 /* main.m */; };
@@ -91,8 +91,6 @@
 		B0456B2E1F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZFPlayerRotation.m"; sourceTree = "<group>"; };
 		B0456B2F1F0B329B00280B13 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 		B0456B301F0B329B00280B13 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
-		B0456B311F0B329B00280B13 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
-		B0456B321F0B329B00280B13 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
 		B0456B331F0B329B00280B13 /* ZFPlayer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZFPlayer.bundle; sourceTree = "<group>"; };
 		B0456B341F0B329B00280B13 /* ZFPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayer.h; sourceTree = "<group>"; };
 		B0456B351F0B329B00280B13 /* ZFPlayerControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPlayerControlView.h; sourceTree = "<group>"; };
@@ -114,6 +112,8 @@
 		B0456BA11F0B6C3E00280B13 /* UIViewController+SH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SH.m"; sourceTree = "<group>"; };
 		B0456BA31F0B7DD700280B13 /* DYRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYRegisterView.h; sourceTree = "<group>"; };
 		B0456BA41F0B7DD700280B13 /* DYRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRegisterView.m; sourceTree = "<group>"; };
+		B0456BBC1F0CFF6B00280B13 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
+		B0456BBD1F0CFF6B00280B13 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
 		B06175091F0A5FE00052734F /* UIView+DYCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYCustomBorder.h"; sourceTree = "<group>"; };
 		B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYCustomBorder.m"; sourceTree = "<group>"; };
 		B061750C1F0A62130052734F /* UIView+DYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYFrame.h"; sourceTree = "<group>"; };
@@ -217,6 +217,8 @@
 		B0456B211F0B329B00280B13 /* Player */ = {
 			isa = PBXGroup;
 			children = (
+				B0456BBC1F0CFF6B00280B13 /* ZFBrightnessView.h */,
+				B0456BBD1F0CFF6B00280B13 /* ZFBrightnessView.m */,
 				B0456B221F0B329B00280B13 /* ASValuePopUpView.h */,
 				B0456B231F0B329B00280B13 /* ASValuePopUpView.m */,
 				B0456B241F0B329B00280B13 /* ASValueTrackingSlider.h */,
@@ -224,8 +226,6 @@
 				B0456B261F0B329B00280B13 /* Category */,
 				B0456B2F1F0B329B00280B13 /* MMMaterialDesignSpinner.h */,
 				B0456B301F0B329B00280B13 /* MMMaterialDesignSpinner.m */,
-				B0456B311F0B329B00280B13 /* ZFBrightnessView.h */,
-				B0456B321F0B329B00280B13 /* ZFBrightnessView.m */,
 				B0456B331F0B329B00280B13 /* ZFPlayer.bundle */,
 				B0456B341F0B329B00280B13 /* ZFPlayer.h */,
 				B0456B351F0B329B00280B13 /* ZFPlayerControlView.h */,
@@ -585,8 +585,8 @@
 				TargetAttributes = {
 					B07300E21F09D7E6006414A0 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = 38QRXE82M2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = RDADXM2YR4;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -678,7 +678,6 @@
 				B0456B3C1F0B329B00280B13 /* ASValuePopUpView.m in Sources */,
 				B07301A51F0A12CC006414A0 /* DYDrawerViewController.m in Sources */,
 				B0456B521F0B340200280B13 /* DYHomeCell.m in Sources */,
-				B0456B431F0B329B00280B13 /* ZFBrightnessView.m in Sources */,
 				B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */,
 				B0456B451F0B329B00280B13 /* ZFPlayerControlView.m in Sources */,
 				B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */,
@@ -700,6 +699,7 @@
 				B07301B41F0A2932006414A0 /* DYDrawerCell.m in Sources */,
 				B07301211F09DE91006414A0 /* DYBaseTableViewController.m in Sources */,
 				B0456B411F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m in Sources */,
+				B0456BBE1F0CFF6B00280B13 /* ZFBrightnessView.m in Sources */,
 				B073010B1F09D9A4006414A0 /* DYCacheManager.m in Sources */,
 				B0456B931F0B698D00280B13 /* DYLoginViewController.m in Sources */,
 				B07301371F09ED72006414A0 /* YGInteractor.m in Sources */,
@@ -834,14 +834,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 38QRXE82M2;
+				DEVELOPMENT_TEAM = RDADXM2YR4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FitNess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdy.FitNess;
+				PRODUCT_BUNDLE_IDENTIFIER = us.fitinfitness.exerciser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "8db1bcd9-f17a-41ec-8b05-4d5011a742ca";
+				PROVISIONING_PROFILE_SPECIFIER = Fitinfitness.exerciser_Development0316;
 			};
 			name = Debug;
 		};
@@ -851,12 +852,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 38QRXE82M2;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FitNess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hdy.FitNess;
+				PRODUCT_BUNDLE_IDENTIFIER = us.fitinfitness.exerciser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
