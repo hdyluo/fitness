@@ -17,13 +17,11 @@
 
 #define RGBACOLOR(r, g, b, a) [UIColor colorWithRed : (r) / 255.0 green : (g) / 255.0 blue : (b) / 255.0 alpha : (a)]
 
-// 一个像素
+
 #define onePix (1.0 / [UIScreen mainScreen].scale)
 
-// pix转化为point
 #define PixToPoint(pixValue) ceil((pixValue) / 3.0 * __FitWidthScale_FOR_414)
 
-//屏幕适配系数比例
 #define __FitWidthScale_FOR_414  (SCREEN_WIDTH / 414.0f)
 
 

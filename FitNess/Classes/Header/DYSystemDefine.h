@@ -15,10 +15,8 @@
 #define DLog(...)
 #endif
 
-// 设备系统版本号
 #define SYSTEM_VERSION  [[UIDevice currentDevice] systemVersion]
 
-// 应用程序版本号
 #define APP_VERSION     [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 
 #define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;

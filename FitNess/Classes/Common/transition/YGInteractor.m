@@ -9,15 +9,15 @@
 #import "YGInteractor.h"
 
 @interface YGInteractor ()<UIGestureRecognizerDelegate>{
-    CGFloat _percent;               //手势运行的百分比
-    CGPoint _startPoint;            //手势开始的位置
+    CGFloat _percent;
+    CGPoint _startPoint;
 }
 
-@property (nonatomic,strong) UIPanGestureRecognizer * panGesture;           //手势
+@property (nonatomic,strong) UIPanGestureRecognizer * panGesture;
 
-@property (nonatomic,assign) CGFloat edgeSpacing;                           //从边界多少范围内才可以侧滑
+@property (nonatomic,assign) CGFloat edgeSpacing;
 
-@property (nonatomic,assign) YGInteractorDirection direction;               //侧滑方向
+@property (nonatomic,assign) YGInteractorDirection direction;
 
 
 @end
@@ -46,7 +46,7 @@
 - (void)panGestureAction:(UIPanGestureRecognizer *)panGesture{
     switch (panGesture.state) {
         case UIGestureRecognizerStateBegan:
-            _startPoint = [panGesture translationInView:panGesture.view];                       //不能用localtionInView   -------------超级大坑
+            _startPoint = [panGesture translationInView:panGesture.view];
             _percent = 0;
             self.canInteracive = YES;
             if (self.transitionAction) {
@@ -91,7 +91,7 @@
         default:
             break;
     }
-    _percent = _percent * self.speedControl;        //根据速率计算当前percent
+    _percent = _percent * self.speedControl;
     
     _percent = _percent < 0 ? 0:_percent;
     
@@ -115,22 +115,22 @@
     CGPoint startPoint = [gestureRecognizer locationInView:gestureRecognizer.view];
     BOOL canBegin = NO;
     switch (self.direction) {
-        case YGInteractorDirectionTop:              //从下向上滑
+        case YGInteractorDirectionTop:
             if (startPoint.y > self.edgeSpacing) {
                 return YES;
             }
             break;
-        case YGInteractorDirectionLeft:             //从右向左滑
+        case YGInteractorDirectionLeft:
             if (startPoint.x + self.edgeSpacing > gestureRecognizer.view.frame.size.width) {
                 return YES;
             }
             break;
-        case YGInteractorDirectionRight:              //从左向右滑
+        case YGInteractorDirectionRight:
             if (startPoint.x - self.edgeSpacing < 0) {
                 return YES;
             }
             break;
-        case YGInteractorDirectionBottom:           //从上向下滑
+        case YGInteractorDirectionBottom:           
             if (startPoint.y < self.edgeSpacing) {
                 return YES;
             }

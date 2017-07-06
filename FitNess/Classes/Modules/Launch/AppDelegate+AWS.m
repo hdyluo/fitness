@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate+AWS.h"
+#import "AWSSNS.h"
 
 @implementation AppDelegate (AWS)
 

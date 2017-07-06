@@ -11,7 +11,7 @@
 
 @interface YGAnimator : NSObject<UIViewControllerAnimatedTransitioning>
 
-@property (nonatomic,assign) NSTimeInterval timeInterval;           //动画时间
+@property (nonatomic,assign) NSTimeInterval timeInterval;           
 
 @property (nonatomic,copy) void (^animatorBlock)(id<UIViewControllerContextTransitioning> context);
 

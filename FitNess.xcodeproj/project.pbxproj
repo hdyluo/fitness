@@ -114,6 +114,7 @@
 		B0456BA41F0B7DD700280B13 /* DYRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYRegisterView.m; sourceTree = "<group>"; };
 		B0456BBC1F0CFF6B00280B13 /* ZFBrightnessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFBrightnessView.h; sourceTree = "<group>"; };
 		B0456BBD1F0CFF6B00280B13 /* ZFBrightnessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFBrightnessView.m; sourceTree = "<group>"; };
+		B0456BBF1F0E051B00280B13 /* FitNess.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitNess.entitlements; sourceTree = "<group>"; };
 		B06175091F0A5FE00052734F /* UIView+DYCustomBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYCustomBorder.h"; sourceTree = "<group>"; };
 		B061750A1F0A5FE00052734F /* UIView+DYCustomBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYCustomBorder.m"; sourceTree = "<group>"; };
 		B061750C1F0A62130052734F /* UIView+DYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYFrame.h"; sourceTree = "<group>"; };
@@ -322,6 +323,7 @@
 		B07300E51F09D7E6006414A0 /* FitNess */ = {
 			isa = PBXGroup;
 			children = (
+				B0456BBF1F0E051B00280B13 /* FitNess.entitlements */,
 				B07300FD1F09D86F006414A0 /* Classes */,
 				B07300E61F09D7E6006414A0 /* Supporting Files */,
 			);
@@ -587,6 +589,14 @@
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = RDADXM2YR4;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -833,6 +843,7 @@
 			baseConfigurationReference = FD7AF4A8002AD402C12842EE /* Pods-FitNess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitNess/FitNess.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = RDADXM2YR4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -851,6 +862,7 @@
 			baseConfigurationReference = 9052986DB863A38EB5CB4697 /* Pods-FitNess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FitNess/FitNess.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

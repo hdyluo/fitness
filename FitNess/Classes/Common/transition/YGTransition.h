@@ -7,7 +7,7 @@
 
 
 
-//  这里要注意，YGTransition 是给ViewController 的delegate，必须是强引用类型,如果定义为局部变量，会在函数结束后释放，因为delegate 是 weak类型
+
 
 #import <UIKit/UIKit.h>
 #import "YGAnimator.h"

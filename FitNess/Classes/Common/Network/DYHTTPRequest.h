@@ -13,29 +13,29 @@ typedef NS_ENUM(NSInteger,DYHTTPRequestType) {
     YGHTTPRequestGet,
 };
 
-typedef NSString * (^DYHTTPBodyEncodeBlock)(NSURLRequest *request, id parameters, NSError * *error);    //请求body的编码方式,默认AFN做了URL编码
-typedef NSError * (^DYHTTPErrorHandleBlock)(id responseObject);                                         //错误处理的方式
-typedef id (^DYHTTPResponseHandleBlock)(id responseObject);                                             //响应处理的方式
+typedef NSString * (^DYHTTPBodyEncodeBlock)(NSURLRequest *request, id parameters, NSError * *error);
+typedef NSError * (^DYHTTPErrorHandleBlock)(id responseObject);
+typedef id (^DYHTTPResponseHandleBlock)(id responseObject);
 
 
 @interface DYHTTPRequest : NSObject
 
-@property(nonatomic,assign) DYHTTPRequestType           requestType;            //请求类型，默认Post请求
+@property(nonatomic,assign) DYHTTPRequestType           requestType;
 
-@property(nonatomic,assign) NSInteger                   timeOut;                //超时时间，默认30s
+@property(nonatomic,assign) NSInteger                   timeOut;
 
-@property(nonatomic,strong) NSDictionary *              requestHeader;          //请求头，这个是服务约定
+@property(nonatomic,strong) NSDictionary *              requestHeader;
 
-@property(nonatomic,strong) NSSet *                     responseSet;            //响应类型，和服务约定
+@property(nonatomic,strong) NSSet *                     responseSet;
 
-@property(nonatomic,copy)   NSString *                  baseUrlStr;             //请求的URL
+@property(nonatomic,copy)   NSString *                  baseUrlStr;
 
-@property(nonatomic,strong) id                          parameters;             //请求参数,字典
+@property(nonatomic,strong) id                          parameters;
 
-@property(nonatomic,copy) DYHTTPBodyEncodeBlock         bodyEncodeBlock;        //默认为空
+@property(nonatomic,copy) DYHTTPBodyEncodeBlock         bodyEncodeBlock;
 
-@property (nonatomic,copy) DYHTTPErrorHandleBlock       errorHandleBlock;       //默认为空
+@property (nonatomic,copy) DYHTTPErrorHandleBlock       errorHandleBlock;
 
-@property (nonatomic,copy) DYHTTPResponseHandleBlock    responseHandleBlock;    //默认为空
+@property (nonatomic,copy) DYHTTPResponseHandleBlock    responseHandleBlock;    
 
 @end

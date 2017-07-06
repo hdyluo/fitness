@@ -10,7 +10,7 @@
 
 @interface DYBaseViewController : UIViewController
 
-//网络请求
+
 @property (nonatomic, strong) NSMutableArray *tasks;
 
 

@@ -10,9 +10,6 @@
 
 @implementation YGAnimator
 
-- (void)dealloc{
-    NSLog(@"动画控制器释放");
-}
 
 - (instancetype)init{
     if (self = [super init]) {
