@@ -7,7 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AWSSNS.h"
+
 
 @interface AppDelegate (AWS)
+
+- (void)setupNotification;
 
 @end

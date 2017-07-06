@@ -41,5 +41,29 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>AWS</key>
+	<dict>
+		<key>CredentialsProvider</key>
+		<dict>
+			<key>CognitoIdentity</key>
+			<dict>
+				<key>Default</key>
+				<dict>
+					<key>PoolId</key>
+					<string>059804913307</string>
+					<key>Region</key>
+					<string>us-west-2</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>SNS</key>
+		<dict>
+			<key>Default</key>
+			<dict>
+				<key>Region</key>
+				<string>CN</string>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

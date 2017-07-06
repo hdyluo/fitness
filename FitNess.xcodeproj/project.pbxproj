@@ -849,10 +849,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FitNess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.fitinfitness.exerciser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8db1bcd9-f17a-41ec-8b05-4d5011a742ca";
+				PROVISIONING_PROFILE = "a7e0132a-4d50-4f66-aee5-10ef5a073a0e";
 				PROVISIONING_PROFILE_SPECIFIER = Fitinfitness.exerciser_Development0316;
 			};
 			name = Debug;
@@ -868,6 +869,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FitNess/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = us.fitinfitness.exerciser;
 				PRODUCT_NAME = "$(TARGET_NAME)";

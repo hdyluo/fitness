@@ -6,7 +6,7 @@ target 'FitNess' do
 	pod 'MJRefresh', '~> 3.1.12'
     pod 'IQKeyboardManager', '~> 4.0.8'
    	pod 'MBProgressHUD', '~> 1.0.0'
-   	pod ‘AFNetworking’, '~> 3.1.0'
+   	pod 'AFNetworking', '~> 3.1.0'
 	pod 'JSONModel', '~> 1.7.0'
     pod 'AWSSNS'
 end
