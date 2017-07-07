@@ -10,7 +10,10 @@
 #import "AppDelegate+DYUI.h"
 #import "AppDelegate+AWS.h"
 
-static NSString *const SNSPlatformApplicationArn = @"arn:aws:sns:us-west-2:059804913307:app/APNS_SANDBOX/kennytest";
+static NSString *const SNSPlatformApplicationArn = @"arn:aws:sns:us-west-2:059804913307:endpoint/APNS_SANDBOX/hdy/5f2457ce-aaf5-3a6d-bd54-db011d6e95e9";
+AWSRegionType const CognitoRegionType = AWSRegionUSWest2;
+AWSRegionType const DefaultServiceRegionType = AWSRegionCNNorth1;
+NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
 
 @interface AppDelegate ()
 
@@ -31,7 +34,17 @@ static NSString *const SNSPlatformApplicationArn = @"arn:aws:sns:us-west-2:05980
     NSLog(@"deviceTokenString: %@", deviceTokenString);
     [[NSUserDefaults standardUserDefaults] setObject:deviceTokenString forKey:@"deviceToken"];
     [[NSUserDefaults standardUserDefaults] synchronize];
-    [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayDeviceInfo) withObject:nil waitUntilDone:nil];
+    
+    
+    // Sets up the AWS Mobile SDK for iOS
+    AWSCognitoCredentialsProvider *credentialsProvider =   [[AWSCognitoCredentialsProvider alloc] initWithRegionType:CognitoRegionType identityPoolId:CognitoIdentityPoolId];
+    
+    
+    AWSServiceConfiguration *defaultServiceConfiguration = [[AWSServiceConfiguration alloc] initWithRegion:DefaultServiceRegionType
+                                                                                       credentialsProvider:credentialsProvider];
+    
+    AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = defaultServiceConfiguration;
+
     
     
     AWSSNS *sns = [AWSSNS defaultSNS];
@@ -46,7 +59,7 @@ static NSString *const SNSPlatformApplicationArn = @"arn:aws:sns:us-west-2:05980
             NSLog(@"endpointArn: %@",createEndPointResponse);
             [[NSUserDefaults standardUserDefaults] setObject:createEndPointResponse.endpointArn forKey:@"endpointArn"];
             [[NSUserDefaults standardUserDefaults] synchronize];
-            [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayDeviceInfo) withObject:nil waitUntilDone:NO];
+//            [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayDeviceInfo) withObject:nil waitUntilDone:NO];
             
         }
         
