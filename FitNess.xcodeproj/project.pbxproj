@@ -58,6 +58,20 @@
 		B07301AE1F0A14BE006414A0 /* DYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301AD1F0A14BE006414A0 /* DYHomeViewController.m */; };
 		B07301B11F0A2915006414A0 /* DYDrawerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301B01F0A2915006414A0 /* DYDrawerHeaderView.m */; };
 		B07301B41F0A2932006414A0 /* DYDrawerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B07301B31F0A2932006414A0 /* DYDrawerCell.m */; };
+		B0E5DFE21F0FB32800EC8A51 /* AWSCognitoUserPoolsSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E5DFDE1F0FB32800EC8A51 /* AWSCognitoUserPoolsSignIn.framework */; };
+		B0E5DFE31F0FB32800EC8A51 /* AWSMobileClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5DFE01F0FB32800EC8A51 /* AWSMobileClient.m */; };
+		B0E5DFE41F0FB32800EC8A51 /* AWSMobileHubHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0E5DFE11F0FB32800EC8A51 /* AWSMobileHubHelper.framework */; };
+		B0E5E01C1F0FB98500EC8A51 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E5E0071F0FB98500EC8A51 /* SignIn.storyboard */; };
+		B0E5E01D1F0FB98500EC8A51 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E0091F0FB98500EC8A51 /* SignInViewController.m */; };
+		B0E5E01E1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E00C1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.m */; };
+		B0E5E01F1F0FB98500EC8A51 /* FormTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E00E1F0FB98500EC8A51 /* FormTableCell.m */; };
+		B0E5E0201F0FB98500EC8A51 /* FormTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E0101F0FB98500EC8A51 /* FormTableDelegate.m */; };
+		B0E5E0211F0FB98500EC8A51 /* TableInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E0121F0FB98500EC8A51 /* TableInputCell.m */; };
+		B0E5E0221F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E0141F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.m */; };
+		B0E5E0231F0FB98500EC8A51 /* UserPoolMFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E0161F0FB98500EC8A51 /* UserPoolMFAViewController.m */; };
+		B0E5E0241F0FB98500EC8A51 /* UserPools.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0E5E0171F0FB98500EC8A51 /* UserPools.storyboard */; };
+		B0E5E0251F0FB98500EC8A51 /* UserPoolSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E0191F0FB98500EC8A51 /* UserPoolSignUpViewController.m */; };
+		B0E5E0261F0FB98500EC8A51 /* UserPoolsUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E5E01B1F0FB98500EC8A51 /* UserPoolsUIHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -168,6 +182,30 @@
 		B07301B01F0A2915006414A0 /* DYDrawerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDrawerHeaderView.m; sourceTree = "<group>"; };
 		B07301B21F0A2932006414A0 /* DYDrawerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYDrawerCell.h; sourceTree = "<group>"; };
 		B07301B31F0A2932006414A0 /* DYDrawerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYDrawerCell.m; sourceTree = "<group>"; };
+		B0E5DFDE1F0FB32800EC8A51 /* AWSCognitoUserPoolsSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSCognitoUserPoolsSignIn.framework; sourceTree = "<group>"; };
+		B0E5DFDF1F0FB32800EC8A51 /* AWSMobileClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSMobileClient.h; sourceTree = "<group>"; };
+		B0E5DFE01F0FB32800EC8A51 /* AWSMobileClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSMobileClient.m; sourceTree = "<group>"; };
+		B0E5DFE11F0FB32800EC8A51 /* AWSMobileHubHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSMobileHubHelper.framework; sourceTree = "<group>"; };
+		B0E5E0071F0FB98500EC8A51 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		B0E5E0081F0FB98500EC8A51 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		B0E5E0091F0FB98500EC8A51 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		B0E5E00B1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CognitoUserPoolsIdentityProfile.h; sourceTree = "<group>"; };
+		B0E5E00C1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CognitoUserPoolsIdentityProfile.m; sourceTree = "<group>"; };
+		B0E5E00D1F0FB98500EC8A51 /* FormTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTableCell.h; sourceTree = "<group>"; };
+		B0E5E00E1F0FB98500EC8A51 /* FormTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTableCell.m; sourceTree = "<group>"; };
+		B0E5E00F1F0FB98500EC8A51 /* FormTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormTableDelegate.h; sourceTree = "<group>"; };
+		B0E5E0101F0FB98500EC8A51 /* FormTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormTableDelegate.m; sourceTree = "<group>"; };
+		B0E5E0111F0FB98500EC8A51 /* TableInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableInputCell.h; sourceTree = "<group>"; };
+		B0E5E0121F0FB98500EC8A51 /* TableInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableInputCell.m; sourceTree = "<group>"; };
+		B0E5E0131F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPoolForgotPasswordViewController.h; sourceTree = "<group>"; };
+		B0E5E0141F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPoolForgotPasswordViewController.m; sourceTree = "<group>"; };
+		B0E5E0151F0FB98500EC8A51 /* UserPoolMFAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPoolMFAViewController.h; sourceTree = "<group>"; };
+		B0E5E0161F0FB98500EC8A51 /* UserPoolMFAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPoolMFAViewController.m; sourceTree = "<group>"; };
+		B0E5E0171F0FB98500EC8A51 /* UserPools.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UserPools.storyboard; sourceTree = "<group>"; };
+		B0E5E0181F0FB98500EC8A51 /* UserPoolSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPoolSignUpViewController.h; sourceTree = "<group>"; };
+		B0E5E0191F0FB98500EC8A51 /* UserPoolSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPoolSignUpViewController.m; sourceTree = "<group>"; };
+		B0E5E01A1F0FB98500EC8A51 /* UserPoolsUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserPoolsUIHelper.h; sourceTree = "<group>"; };
+		B0E5E01B1F0FB98500EC8A51 /* UserPoolsUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPoolsUIHelper.m; sourceTree = "<group>"; };
 		FD7AF4A8002AD402C12842EE /* Pods-FitNess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitNess.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitNess/Pods-FitNess.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C61BA536BE90F41EE734B43 /* Pods_FitNess.framework in Frameworks */,
+				B0E5DFE21F0FB32800EC8A51 /* AWSCognitoUserPoolsSignIn.framework in Frameworks */,
+				B0E5DFE41F0FB32800EC8A51 /* AWSMobileHubHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +386,7 @@
 		B07300FD1F09D86F006414A0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B07301B51F0A36D1006414A0 /* ThirdParty */,
+				B0E5DFDC1F0FB31E00EC8A51 /* ThirdParty */,
 				B07301101F09DA13006414A0 /* Categorys */,
 				B073010F1F09D9F5006414A0 /* Header */,
 				B07301051F09D95E006414A0 /* Managers */,
@@ -529,11 +569,59 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
-		B07301B51F0A36D1006414A0 /* ThirdParty */ = {
+		B0E5DFDC1F0FB31E00EC8A51 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				B0E5DFDD1F0FB32800EC8A51 /* AmazonAws */,
 			);
 			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B0E5DFDD1F0FB32800EC8A51 /* AmazonAws */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5E0061F0FB98500EC8A51 /* SignIn */,
+				B0E5DFDE1F0FB32800EC8A51 /* AWSCognitoUserPoolsSignIn.framework */,
+				B0E5DFDF1F0FB32800EC8A51 /* AWSMobileClient.h */,
+				B0E5DFE01F0FB32800EC8A51 /* AWSMobileClient.m */,
+				B0E5DFE11F0FB32800EC8A51 /* AWSMobileHubHelper.framework */,
+			);
+			path = AmazonAws;
+			sourceTree = "<group>";
+		};
+		B0E5E0061F0FB98500EC8A51 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5E0071F0FB98500EC8A51 /* SignIn.storyboard */,
+				B0E5E0081F0FB98500EC8A51 /* SignInViewController.h */,
+				B0E5E0091F0FB98500EC8A51 /* SignInViewController.m */,
+				B0E5E00A1F0FB98500EC8A51 /* UserPools */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		B0E5E00A1F0FB98500EC8A51 /* UserPools */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5E00B1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.h */,
+				B0E5E00C1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.m */,
+				B0E5E00D1F0FB98500EC8A51 /* FormTableCell.h */,
+				B0E5E00E1F0FB98500EC8A51 /* FormTableCell.m */,
+				B0E5E00F1F0FB98500EC8A51 /* FormTableDelegate.h */,
+				B0E5E0101F0FB98500EC8A51 /* FormTableDelegate.m */,
+				B0E5E0111F0FB98500EC8A51 /* TableInputCell.h */,
+				B0E5E0121F0FB98500EC8A51 /* TableInputCell.m */,
+				B0E5E0131F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.h */,
+				B0E5E0141F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.m */,
+				B0E5E0151F0FB98500EC8A51 /* UserPoolMFAViewController.h */,
+				B0E5E0161F0FB98500EC8A51 /* UserPoolMFAViewController.m */,
+				B0E5E0171F0FB98500EC8A51 /* UserPools.storyboard */,
+				B0E5E0181F0FB98500EC8A51 /* UserPoolSignUpViewController.h */,
+				B0E5E0191F0FB98500EC8A51 /* UserPoolSignUpViewController.m */,
+				B0E5E01A1F0FB98500EC8A51 /* UserPoolsUIHelper.h */,
+				B0E5E01B1F0FB98500EC8A51 /* UserPoolsUIHelper.m */,
+			);
+			path = UserPools;
 			sourceTree = "<group>";
 		};
 		B4E33A29DAD264AB4F5EF9BF /* Pods */ = {
@@ -588,7 +676,7 @@
 					B07300E21F09D7E6006414A0 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 8JUBLWBBQG;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -623,6 +711,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E5E01C1F0FB98500EC8A51 /* SignIn.storyboard in Resources */,
+				B0E5E0241F0FB98500EC8A51 /* UserPools.storyboard in Resources */,
 				B07300F61F09D7E6006414A0 /* LaunchScreen.storyboard in Resources */,
 				B0456B441F0B329B00280B13 /* ZFPlayer.bundle in Resources */,
 				B07300F31F09D7E6006414A0 /* Assets.xcassets in Resources */,
@@ -674,7 +764,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -684,10 +774,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E5E0231F0FB98500EC8A51 /* UserPoolMFAViewController.m in Sources */,
+				B0E5E01F1F0FB98500EC8A51 /* FormTableCell.m in Sources */,
 				B0456B421F0B329B00280B13 /* MMMaterialDesignSpinner.m in Sources */,
 				B0456B3C1F0B329B00280B13 /* ASValuePopUpView.m in Sources */,
 				B07301A51F0A12CC006414A0 /* DYDrawerViewController.m in Sources */,
 				B0456B521F0B340200280B13 /* DYHomeCell.m in Sources */,
+				B0E5E0201F0FB98500EC8A51 /* FormTableDelegate.m in Sources */,
 				B0456B111F0A520700280B13 /* UIImage+DYUtils.m in Sources */,
 				B0456B451F0B329B00280B13 /* ZFPlayerControlView.m in Sources */,
 				B061750B1F0A5FE00052734F /* UIView+DYCustomBorder.m in Sources */,
@@ -699,25 +792,31 @@
 				B07301081F09D973006414A0 /* DYUserManager.m in Sources */,
 				B0456B3F1F0B329B00280B13 /* UITabBarController+ZFPlayerRotation.m in Sources */,
 				B07301381F09ED72006414A0 /* YGTransition.m in Sources */,
+				B0E5E0261F0FB98500EC8A51 /* UserPoolsUIHelper.m in Sources */,
 				B0456B9F1F0B6B8700280B13 /* DYLoginView.m in Sources */,
 				B0456BA21F0B6C3E00280B13 /* UIViewController+SH.m in Sources */,
 				B061750E1F0A62130052734F /* UIView+DYFrame.m in Sources */,
 				B07301361F09ED72006414A0 /* YGAnimator.m in Sources */,
 				B0456B3E1F0B329B00280B13 /* UINavigationController+ZFPlayerRotation.m in Sources */,
 				B07301AE1F0A14BE006414A0 /* DYHomeViewController.m in Sources */,
+				B0E5E01D1F0FB98500EC8A51 /* SignInViewController.m in Sources */,
 				B07301251F09E712006414A0 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				B07301B41F0A2932006414A0 /* DYDrawerCell.m in Sources */,
 				B07301211F09DE91006414A0 /* DYBaseTableViewController.m in Sources */,
 				B0456B411F0B329B00280B13 /* UIViewController+ZFPlayerRotation.m in Sources */,
 				B0456BBE1F0CFF6B00280B13 /* ZFBrightnessView.m in Sources */,
 				B073010B1F09D9A4006414A0 /* DYCacheManager.m in Sources */,
+				B0E5E0251F0FB98500EC8A51 /* UserPoolSignUpViewController.m in Sources */,
+				B0E5E01E1F0FB98500EC8A51 /* CognitoUserPoolsIdentityProfile.m in Sources */,
 				B0456B931F0B698D00280B13 /* DYLoginViewController.m in Sources */,
 				B07301371F09ED72006414A0 /* YGInteractor.m in Sources */,
 				B073010E1F09D9B4006414A0 /* DYMediaManager.m in Sources */,
+				B0E5DFE31F0FB32800EC8A51 /* AWSMobileClient.m in Sources */,
 				B07301041F09D90C006414A0 /* DYBaseViewController.m in Sources */,
 				B073011E1F09DE6A006414A0 /* DYBaseJsonModel.m in Sources */,
 				B07301181F09DBE7006414A0 /* AppDelegate+DYUI.m in Sources */,
 				B073019B1F09F3D7006414A0 /* DYHTTPRequest.m in Sources */,
+				B0E5E0221F0FB98500EC8A51 /* UserPoolForgotPasswordViewController.m in Sources */,
 				B0456B051F0A4EF000280B13 /* UIButton+DYImagePosition.m in Sources */,
 				B0456B3D1F0B329B00280B13 /* ASValueTrackingSlider.m in Sources */,
 				B0456B961F0B69AC00280B13 /* DYRegisterViewController.m in Sources */,
@@ -728,6 +827,7 @@
 				B0456B0B1F0A507500280B13 /* UIColor+DYUtils.m in Sources */,
 				B0456AFF1F0A4B9600280B13 /* UIButton+DYBlock.m in Sources */,
 				B0456B471F0B329B00280B13 /* ZFPlayerView.m in Sources */,
+				B0E5E0211F0FB98500EC8A51 /* TableInputCell.m in Sources */,
 				B0456B171F0B2A3200280B13 /* AppDelegate+AWS.m in Sources */,
 				B07300E81F09D7E6006414A0 /* main.m in Sources */,
 				B07301A11F0A1098006414A0 /* DYBaseDrawerViewController.m in Sources */,
@@ -845,7 +945,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FitNess/FitNess.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 8JUBLWBBQG;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitNess/Classes/ThirdParty/AmazonAws",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FitNess/Info.plist;
@@ -853,8 +957,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.hdy.fitness;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "05490170-d288-4569-9821-39ede9605156";
-				PROVISIONING_PROFILE_SPECIFIER = hdytest;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -866,6 +970,10 @@
 				CODE_SIGN_ENTITLEMENTS = FitNess/FitNess.entitlements;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitNess/Classes/ThirdParty/AmazonAws",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/FitNess/Classes/Header/PrefixHeader.pch";
 				INFOPLIST_FILE = FitNess/Info.plist;

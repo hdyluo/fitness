@@ -9,4 +9,5 @@ target 'FitNess' do
    	pod 'AFNetworking', '~> 3.1.0'
 	pod 'JSONModel', '~> 1.7.0'
     pod 'AWSSNS'
+    pod 'AWSCognitoIdentityProvider'
 end

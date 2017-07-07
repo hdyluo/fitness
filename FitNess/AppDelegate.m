@@ -9,12 +9,12 @@
 #import "AppDelegate.h"
 #import "AppDelegate+DYUI.h"
 #import "AppDelegate+AWS.h"
+#import "AWSMobileClient.h"
 
 static NSString *const SNSPlatformApplicationArn = @"arn:aws:sns:us-west-2:059804913307:endpoint/APNS_SANDBOX/hdy/5f2457ce-aaf5-3a6d-bd54-db011d6e95e9";
-AWSRegionType const CognitoRegionType = AWSRegionUSWest2;
+AWSRegionType const CognitoRegionType = AWSRegionUSEast1;
 AWSRegionType const DefaultServiceRegionType = AWSRegionCNNorth1;
-NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
-
+NSString *const CognitoIdentityPoolId = @"us-east-1:bde5ff13-6d24-4244-8137-3340b0dca44e";
 @interface AppDelegate ()
 
 @end
@@ -25,7 +25,21 @@ NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self setupUI];
     [self setupNotification];
-    return YES;
+    return [[AWSMobileClient sharedInstance] didFinishLaunching:application
+                                                    withOptions:launchOptions];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    NSLog(@"application application: %@, openURL: %@, sourceApplication: %@", application.description, url.absoluteURL,
+          sourceApplication);
+    
+    return [[AWSMobileClient sharedInstance] withApplication:application
+                                                     withURL:url
+                                       withSourceApplication:sourceApplication
+                                              withAnnotation:annotation];
 }
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
@@ -44,7 +58,7 @@ NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
                                                                                        credentialsProvider:credentialsProvider];
     
     AWSServiceManager.defaultServiceManager.defaultServiceConfiguration = defaultServiceConfiguration;
-
+    
     
     
     AWSSNS *sns = [AWSSNS defaultSNS];
@@ -59,7 +73,7 @@ NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
             NSLog(@"endpointArn: %@",createEndPointResponse);
             [[NSUserDefaults standardUserDefaults] setObject:createEndPointResponse.endpointArn forKey:@"endpointArn"];
             [[NSUserDefaults standardUserDefaults] synchronize];
-//            [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayDeviceInfo) withObject:nil waitUntilDone:NO];
+            //            [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayDeviceInfo) withObject:nil waitUntilDone:NO];
             
         }
         
@@ -77,10 +91,10 @@ NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
 
 - (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forRemoteNotification:(NSDictionary *)userInfo completionHandler:(void (^)())completionHandler {
     
-//    AWSMobileAnalytics *mobileAnalytics = [AWSMobileAnalytics defaultMobileAnalytics];
-//    id<AWSMobileAnalyticsEventClient> eventClient = mobileAnalytics.eventClient;
-//    id<AWSMobileAnalyticsEvent> pushNotificationEvent = [eventClient createEventWithEventType:@"PushNotificationEvent"];
-//    
+    //    AWSMobileAnalytics *mobileAnalytics = [AWSMobileAnalytics defaultMobileAnalytics];
+    //    id<AWSMobileAnalyticsEventClient> eventClient = mobileAnalytics.eventClient;
+    //    id<AWSMobileAnalyticsEvent> pushNotificationEvent = [eventClient createEventWithEventType:@"PushNotificationEvent"];
+    //
     NSString *action = @"Undefined";
     if ([identifier isEqualToString:@"READ_IDENTIFIER"]) {
         action = @"read";
@@ -92,12 +106,12 @@ NSString *const CognitoIdentityPoolId = @"us-east-1:0..................";
         action = @"Undefined";
     }
     
-//    [pushNotificationEvent addAttribute:action forKey:@"Action"];
-//    [eventClient recordEvent:pushNotificationEvent];
+    //    [pushNotificationEvent addAttribute:action forKey:@"Action"];
+    //    [eventClient recordEvent:pushNotificationEvent];
     
-//    [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayUserAction:)
-//                                                                                      withObject:action
-//                                                                                   waitUntilDone:NO];
+    //    [self.window.rootViewController.childViewControllers.firstObject performSelectorOnMainThread:@selector(displayUserAction:)
+    //                                                                                      withObject:action
+    //                                                                                   waitUntilDone:NO];
     
     completionHandler();
 }
